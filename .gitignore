@@ -134,7 +134,5 @@ dist
 /playwright/.cache/
 
 # api tests
-/tests-examples
-/e2e/tests/test-trash.spec.ts
 /TODO.txt
 /.env
