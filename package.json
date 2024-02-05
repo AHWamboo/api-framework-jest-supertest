@@ -1,0 +1,24 @@
+{
+    "name": "api-framework-vitest-supertest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "vitest",
+        "coverage": "vitest run --coverage",
+        "prettier:check": "npx prettier --check .",
+        "prettier:write": "npx prettier --write ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@faker-js/faker": "^8.4.0",
+        "@types/jest": "^29.5.12",
+        "@types/supertest": "^6.0.2",
+        "@vitest/coverage-v8": "^1.2.2",
+        "prettier": "3.2.5",
+        "supertest": "^6.3.4",
+        "typescript": "^5.3.3",
+        "vitest": "^1.2.2"
+    }
+}
